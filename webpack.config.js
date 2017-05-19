@@ -14,8 +14,8 @@ var config = {
     path: rootPath + '/dist',
     publicPath: '/build/',
     filename: '[name].js',
-    libraryTarget: 'amd',
-    library: 'demo',
+    // libraryTarget: 'amd',
+    // library: 'demo',
   },
   resolve: {
     alias: alias
